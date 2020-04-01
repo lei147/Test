@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  padding: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.flex-center{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
