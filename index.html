@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <style>
+    html{
+      font-size: 1vw;
+    }
+    #head{
+      height: 10%;
+    }
+    .email{
+      color:#2894FF;
+      cursor: pointer;
+      display: inline-block;
+      box-sizing: border-box;
+      transition: all 2s;
+      
+    }
+    .email:hover{
+      font-size: 5rem;
+      border-bottom:1rem solid #2894FF;
+    }
+  </style>
+   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="head" class="flex-center">
+    <div>
+      <h1 class="email animated flipInY" title="作者的邮箱"> WenJian21@outlook.com </h1>
+    </div>
+  </div>
+  <main>
+    <h2 id="test" style="font-size:4rem">
+    测试
+    </h2>
+    <div id="te1"></div>
+  </main>
+  <script>
+
+    $("#test").click(function(){
+      console.log(123);
+      $("#test").addClass('animated rubberBand');
+      setTimeout(()=>{
+        $("#test").removeClass('rubberBand');
+      },1000)
+      
+      //this.addClass('animated rubberBand')
+    })
+
+  </script>
+</body>
+
+</html>
